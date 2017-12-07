@@ -1,0 +1,119 @@
+Notice: timing checks disabled with +notimingcheck at compile-time
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version G-2012.09-SP1_Full64; Runtime version G-2012.09-SP1_Full64;  Oct 16 16:42 2017
+ucli% dump -add testbench -aggregates 
+VCD+ Writer G-2012.09-SP1_Full64 Copyright (c) 1991-2012 by Synopsys Inc.
+1
+ucli% run
+low power design function verification
+Start verification
+have finish           0 percent test
+have finish           1 percent test
+have finish           2 percent test
+have finish           3 percent test
+have finish           4 percent test
+have finish           5 percent test
+have finish           6 percent test
+have finish           7 percent test
+have finish           8 percent test
+have finish           9 percent test
+have finish          10 percent test
+have finish          11 percent test
+have finish          12 percent test
+have finish          13 percent test
+have finish          14 percent test
+have finish          15 percent test
+have finish          16 percent test
+have finish          17 percent test
+have finish          18 percent test
+have finish          19 percent test
+have finish          20 percent test
+have finish          21 percent test
+have finish          22 percent test
+have finish          23 percent test
+have finish          24 percent test
+have finish          25 percent test
+have finish          26 percent test
+have finish          27 percent test
+have finish          28 percent test
+have finish          29 percent test
+have finish          30 percent test
+have finish          31 percent test
+have finish          32 percent test
+have finish          33 percent test
+have finish          34 percent test
+have finish          35 percent test
+have finish          36 percent test
+have finish          37 percent test
+have finish          38 percent test
+have finish          39 percent test
+have finish          40 percent test
+have finish          41 percent test
+have finish          42 percent test
+have finish          43 percent test
+have finish          44 percent test
+have finish          45 percent test
+have finish          46 percent test
+have finish          47 percent test
+have finish          48 percent test
+have finish          49 percent test
+have finish          50 percent test
+have finish          51 percent test
+have finish          52 percent test
+have finish          53 percent test
+have finish          54 percent test
+have finish          55 percent test
+have finish          56 percent test
+have finish          57 percent test
+have finish          58 percent test
+have finish          59 percent test
+have finish          60 percent test
+have finish          61 percent test
+have finish          62 percent test
+have finish          63 percent test
+have finish          64 percent test
+have finish          65 percent test
+have finish          66 percent test
+have finish          67 percent test
+have finish          68 percent test
+have finish          69 percent test
+have finish          70 percent test
+have finish          71 percent test
+have finish          72 percent test
+have finish          73 percent test
+have finish          74 percent test
+have finish          75 percent test
+have finish          76 percent test
+have finish          77 percent test
+have finish          78 percent test
+have finish          79 percent test
+have finish          80 percent test
+have finish          81 percent test
+have finish          82 percent test
+have finish          83 percent test
+have finish          84 percent test
+have finish          85 percent test
+have finish          86 percent test
+have finish          87 percent test
+have finish          88 percent test
+have finish          89 percent test
+have finish          90 percent test
+have finish          91 percent test
+have finish          92 percent test
+have finish          93 percent test
+have finish          94 percent test
+have finish          95 percent test
+have finish          96 percent test
+have finish          97 percent test
+have finish          98 percent test
+have finish          99 percent test
+      10000 cases pass
+          0 cases failed
+design verification pass
+$finish called from file "./testbench/testbench.sv", line 96.
+$finish at simulation time      100006011000000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100006011000000 ps
+CPU Time:    359.950 seconds;       Data structure size:   0.0Mb
+Mon Oct 16 16:48:13 2017

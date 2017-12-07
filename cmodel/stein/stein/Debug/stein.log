@@ -1,0 +1,16 @@
+﻿生成启动时间为 10/14/2017 10:38:34 AM。
+     1>项目“E:\project\digital signal processing\ASIC-euclidean\cmodel\stein\stein\stein.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\software\vs2013\vs13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\stein.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\software\vs2013\vs13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\stein.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stein.cpp
+         stein.cpp
+       Link:
+         D:\software\vs2013\vs13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\digital signal processing\ASIC-euclidean\cmodel\stein\Debug\stein.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\digital signal processing\ASIC-euclidean\cmodel\stein\Debug\stein.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\digital signal processing\ASIC-euclidean\cmodel\stein\Debug\stein.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\stein.obj
+         stein.vcxproj -> E:\project\digital signal processing\ASIC-euclidean\cmodel\stein\Debug\stein.exe
+     1>已完成生成项目“E:\project\digital signal processing\ASIC-euclidean\cmodel\stein\stein\stein.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.78

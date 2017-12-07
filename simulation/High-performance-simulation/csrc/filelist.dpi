@@ -1,0 +1,7 @@
+DPI_STUB_OBJS = ./../simv.daidir/vc_hdrs.o
+./../simv.daidir/vc_hdrs.o: ./../simv.daidir/vc_hdrs.c
+	@$(CC)  -pipe    -I/apps/EDAs/synopsys/vcs_ov/include  -fPIC -c -o $@ $<
+DPI_WRAPPER_OBJS += 8buD_1_0x2aB.o
+8buD_1_0x2aB.o: 8buD_1_0x2aB.c
+	$(CC) $(CFLAGS) -fPIC -c -o $@ $<
+

@@ -1,0 +1,13 @@
+
++incdir+./rtl
++incdir+./testbench
+
+./rtl/gcd_input.v
+./rtl/gcd_output.v
+./rtl/gcd_plc.v
+./rtl/gcd_top.v
+
+./gcd.c
+
+./testbench/testbench.sv
+

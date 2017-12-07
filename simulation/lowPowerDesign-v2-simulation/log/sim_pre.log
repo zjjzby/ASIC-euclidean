@@ -1,0 +1,39 @@
+                         Chronologic VCS (TM)
+       Version G-2012.09-SP1_Full64 -- Mon Oct 16 14:00:47 2017
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './rtl/length.v'
+Parsing design file './rtl/top.v'
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+./rtl/top.v, 16
+  Redeclaration of ANSI ports not allowed for 'result', this will be an error 
+  in a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+./rtl/top.v, 17
+  Redeclaration of ANSI ports not allowed for 'done', this will be an error in
+  a future release
+
+Parsing design file './testbench/testbench.sv'
+Top Level Modules:
+       testbench
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+recompiling module testbench because:
+	This module or some inlined child module(s) has/have been modified.
+Both modules done.
+make[1]: Entering directory `/net/dellr720b/export3/training/Bizhang_IC/DSP/lowPowerDesign-v2-simulation/csrc'
+gcc  -w  -pipe -O -I/apps/EDAs/synopsys/vcs_ov/include    -fPIC -c -o 8buD_1_0x2aB.o 8buD_1_0x2aB.c
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-whole-archive    -Wl,-no-whole-archive  gcd.o  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o   8buD_1_0x2aB.o  rmapats_mop.o rmapats.o       /apps/EDAs/synopsys/vcs_ov/amd64/lib/libnplex_stub.so /apps/EDAs/synopsys/vcs_ov/amd64/lib/libvirsim.so /apps/EDAs/synopsys/vcs_ov/amd64/lib/liberrorinf.so /apps/EDAs/synopsys/vcs_ov/amd64/lib/libsnpsmalloc.so     /apps/EDAs/synopsys/vcs_ov/amd64/lib/libvcsnew.so /apps/EDAs/synopsys/vcs_ov/amd64/lib/libuclinative.so        ./../simv.daidir/vc_hdrs.o   /apps/EDAs/synopsys/vcs_ov/amd64/lib/vcs_save_restore_new.o -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/net/dellr720b/export3/training/Bizhang_IC/DSP/lowPowerDesign-v2-simulation/csrc'
+CPU time: .192 seconds to compile + .087 seconds to elab + .285 seconds to link

@@ -1,0 +1,10 @@
+frequency_logic = [100 200 300 400 500];
+frequency_register = [100 200 300 400 500 600];
+power_logic = [0.1415 0.2840 0.5257 0.6992 1.0016];
+power_register = [0.2359 0.4773 0.7263 0.9869 1.3718 1.8776];
+figure(1);
+plot(frequency_logic,power_logic );
+hold on;
+plot(frequency_register,power_register );
+grid;
+xlabel('frequency (Mhz)');

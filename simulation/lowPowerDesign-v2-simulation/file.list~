@@ -1,0 +1,11 @@
+
++incdir+./rtl
++incdir+./testbench
+
+./rtl/length.v
+./rtl/top.v
+
+./gcd.c
+
+./testbench/testbench.sv
+
